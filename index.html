@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimum processing time</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+</head>
+<body>
+
+    <main class="container">
+
+        <h2>Minimum Processing Time</h2>
+        <hr>
+
+        <input id="processorTime" type="text" placeholder="Enter processor times separated by commas">
+        <p id="errorMsgProcessor" style="color: red"></p>
+
+        <input id="tasks" type="text" placeholder="Enter tasks separated by commas">
+        <p id="errorMsgTasks" style="color: red"></p>
+        <br>
+
+        <button id="calculate">Calculate Min Processing Time</button>
+        <button class="secondary" id="clear">Clear</button>
+        <br>
+
+        <p id="result" style="color: green;"></p>
+
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
